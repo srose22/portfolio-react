@@ -32,6 +32,20 @@
   height: 70px;
   width: 70px;
 }
+.hamburger-image {
+  height: 200px;
+  width: 200px;
+}
+
+#home{
+  background-image: url(assets/burger-background.jpg);
+  background-blend-mode: overlay;
+  min-height: 550px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
 
 @keyframes App-logo-spin {
   from {
