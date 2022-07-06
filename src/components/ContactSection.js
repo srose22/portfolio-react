@@ -31,7 +31,7 @@ const ContactSection = () => {
                 <p>Have any questions or concerns? Let us know here!</p>
                 <textarea
                   className="form-control"
-                  rows="5"
+                  rows="2"
                   id="comment"
                   name="text"
                 />

@@ -1,6 +1,4 @@
 import React from "react";
-import { faHome } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const FooterSection = () => {
   return (
@@ -10,13 +8,11 @@ const FooterSection = () => {
           <span>Get connected with us on social networks:</span>
         </div>
         <div>
-          <FontAwesomeIcon icon={faHome} />
-
           <a href="#" className="me-4 text-reset">
-            <i className="fa-brands fa-facebook-messenger fa-2x" />
+            <ion-icon name="logo-facebook"></ion-icon>
           </a>
           <a href="#" className="me-4 text-reset">
-            <i className="fa-brands fa-instagram fa-2x" />
+            <ion-icon name="logo-instagram"></ion-icon>
           </a>
         </div>
       </section>
@@ -32,15 +28,13 @@ const FooterSection = () => {
             <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
               <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
               <p>
-                <i className="fas fa-home me-3 " /> Toronto, Ontario, Canada
+                <ion-icon name="location-outline"></ion-icon> Toronto, Ontario
               </p>
               <p>
-                <i className="fas fa-envelope me-3" />
-                samsgrill@gmail.com
+                <ion-icon name="mail-outline"></ion-icon> samsgrill@gmail.com
               </p>
               <p>
-                <i className="fas fa-phone me-3" />
-                234-567-890
+                <ion-icon name="call-outline"></ion-icon> 234-567-890
               </p>
             </div>
           </div>
